@@ -1,3 +1,3 @@
-# My site LMAOOOOOOO
+# site stolen from https://www.minesense.pub/
 Add me on discord 
-Fade#2284
+Fade#8495
