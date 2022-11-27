@@ -1,9 +1,8 @@
-
-
 <!DOCTYPE html>
-<html lang="en" prefix="og: https://ogp.me/ns#"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Flawda Jit</title>
-    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://cdn.discordapp.com/attachments/1013642257452253276/1018028420292165722/asd.png">
     <link rel="stylesheet" href="./assets/styles.css">
@@ -13,47 +12,46 @@
     <script src="./assets/rainbowsparkle.js"></script>
     <script src="./assets/antif12.js"></script>
     <script>
-    function playItHere(e, link) {
-  var audio = document.createElement("audio");
-  var src = document.createElement("source");
-  src.src = "./assets/music/audio.mp3";
-  audio.appendChild(src);
-  audio.volume=0.3;
-  audio.loop=true;
-  audio.play();
-  e.preventDefault();
-    }
-    </script>
-
-</head>
-<body>
-    <div class="container">
-   <h1 class="box1 flex items-center justify-center" id="test" onclick="btnclick(), playItHere(event, this)">Click to Enter</h1>
-
-        <h1>Socials</h1>
-        <a href="">Instagram</a>
-        <a href="">Youtube</a>
-        <a href="">Discord</a>
-        <h1>Denim</h1>
-        <div>
-            <a href="">Rock Revival</a>
-            <a href="">Rock Revival</a>
-            <a href="">Truey Straight Black <span style="color:red;">SALE!</span></a>
-            <a href="">DC Worker Blue Wash</a>
-        </div>
-        <h1>Shoes</h1>
-        </div>
-        
-  <script>
-    const targetDiv = document.getElementById("test");
-    const btn = document.getElementById("test");
-    function btnclick() {
-      if (targetDiv.style.display !== "none") {
-        targetDiv.style.display = "none";
-      } else {
-        targetDiv.style.display = "block";
+      function playItHere(e, link) {
+        var audio = document.createElement("audio");
+        var src = document.createElement("source");
+        src.src = "./assets/music/audio.mp3";
+        audio.appendChild(src);
+        audio.volume = 0.3;
+        audio.loop = true;
+        audio.play();
+        e.preventDefault();
       }
-    };
-  </script>
-</body>
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="box1 flex items-center justify-center" id="test" onclick="btnclick(), playItHere(event, this)">Click to Enter</h1>
+      <h1>Socials</h1>
+      <a href="">Instagram</a>
+      <a href="">Youtube</a>
+      <a href="">Discord</a>
+      <h1>Denim</h1>
+      <div>
+        <a href="">Rock Revival</a>
+        <a href="">Rock Revival</a>
+        <a href="">Truey Straight Black <span style="color:red;">SALE!</span>
+        </a>
+        <a href="">DC Worker Blue Wash</a>
+      </div>
+      <h1>Shoes</h1>
+    </div>
+    <script>
+      const targetDiv = document.getElementById("test");
+      const btn = document.getElementById("test");
+
+      function btnclick() {
+        if (targetDiv.style.display !== "none") {
+          targetDiv.style.display = "none";
+        } else {
+          targetDiv.style.display = "block";
+        }
+      };
+    </script>
+  </body>
 </html>
