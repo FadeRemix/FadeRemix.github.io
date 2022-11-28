@@ -1,8 +1,9 @@
+
+
 <!DOCTYPE html>
-<html lang="en" prefix="og: https://ogp.me/ns#">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en" prefix="og: https://ogp.me/ns#"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Flawda Jit</title>
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://cdn.discordapp.com/attachments/1013642257452253276/1018028420292165722/asd.png">
     <link rel="stylesheet" href="./assets/styles.css">
@@ -12,37 +13,41 @@
     <script src="./assets/rainbowsparkle.js"></script>
     <script src="./assets/antif12.js"></script>
     <script>
-      function playItHere(e, link) {
-        var audio = document.createElement("audio");
-        var src = document.createElement("source");
-        src.src = "./assets/music/audio.mp3";
-        audio.appendChild(src);
-        audio.volume = 0.3;
-        audio.loop = true;
-        audio.play();
-        e.preventDefault();
-      }
+    function playItHere(e, link) {
+  var audio = document.createElement("audio");
+  var src = document.createElement("source");
+  src.src = "./assets/music/audio.mp3";
+  audio.appendChild(src);
+  audio.volume=0.1;
+  audio.loop=true;
+  audio.play();
+  e.preventDefault();
+    }
     </script>
-  </head>
-  <body>
-    <div class="container">
-      <h1 class="box1 flex items-center justify-center" id="test" onclick="btnclick(), playItHere(event, this)">Click to Enter</h1>
-      <h1>Socials</h1>
-      <a href="">Instagram</a>
-      <a href="">Youtube</a>
-      <a href="">Discord</a>
-    </div>
-    <script>
-      const targetDiv = document.getElementById("test");
-      const btn = document.getElementById("test");
 
-      function btnclick() {
-        if (targetDiv.style.display !== "none") {
-          targetDiv.style.display = "none";
-        } else {
-          targetDiv.style.display = "block";
-        }
-      };
-    </script>
-  </body>
+</head>
+<body>
+    <p><marquee class="rainbow"behavior="scroll" direction="left">Now Playing: Request Refused - Xavier Wulf</marquee></p>
+    <div class="container">
+   <h1 class="box1 flex items-center justify-center" id="test" onclick="btnclick(), playItHere(event, this)">Click to Enter</h1>
+
+        <h1>Socials</h1>
+        <a href="https://www.instagram.com/the.zebra.z/">Instagram</a>
+        <a href="https://www.snapchat.com/add/zebra.zk?share_id=uiWApYqtR1k&locale=en-US">Snapchat</a>
+        <a href="https://cash.app/$thezebraz">Cash App</a>
+        <a href="https://www.youtube.com/channel/UCnkvipA729kcy922h5dUegw">Youtube</a>
+        </div>
+        
+  <script>
+    const targetDiv = document.getElementById("test");
+    const btn = document.getElementById("test");
+    function btnclick() {
+      if (targetDiv.style.display !== "none") {
+        targetDiv.style.display = "none";
+      } else {
+        targetDiv.style.display = "block";
+      }
+    };
+  </script>
+</body>
 </html>
