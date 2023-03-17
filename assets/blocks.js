@@ -1,17 +1,10 @@
 
-// <![CDATA[
 var colour="#7a7a7a"; //  colours of drops
 var border="#FFFFFF"; // colour of border
 var speed=40; // speed of animation, lower is faster
 var size=20; // size of blocks
 var drops=40; // number of raindrops
 
-/***************************\
-* Block Rain Graphic Effect *
-*(c)2005-12 mf2fm web-design*
-*  http://www.mf2fm.com/rv  *
-* DON'T EDIT BELOW THIS BOX *
-\***************************/
 var swide, shigh;
 var blox=new Array();
 var blok=new Array();
@@ -92,4 +85,4 @@ function set_width() {
   swide=sw_min;
   shigh=sh_min;
 }
-// ]]>
+
