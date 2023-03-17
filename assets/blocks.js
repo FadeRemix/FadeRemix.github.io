@@ -1,4 +1,4 @@
-<script type="text/javascript">
+
 // <![CDATA[
 var colour="#7a7a7a"; //  colours of drops
 var border="#FFFFFF"; // colour of border
@@ -93,4 +93,3 @@ function set_width() {
   shigh=sh_min;
 }
 // ]]>
-</script>
