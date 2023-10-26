@@ -1,4 +1,7 @@
-
+img{
+   width: 100%;
+   max-width: 500px;
+}
 body {  
     background: #000;
     background-size: 250% 250%;
