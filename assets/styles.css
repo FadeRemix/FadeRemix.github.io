@@ -30,10 +30,6 @@ body {
     text-shadow: 0 0 10px red;
 }
 
-h1 {
-    animation: glow 1.5s infinite alternate;
-}
-
 @keyframes glow {
     to {
         text-shadow: 0 0 10px #ffffff;
@@ -46,6 +42,7 @@ h1 {
     font-size: 20px;
     text-align: center;
     padding: 1px;
+   animation: glow 1.5s infinite alternate;
 }
 
 a {
