@@ -1,8 +1,8 @@
 var textObjects = [
-    { text: "Discord", href: "https://example.com/1" },
-    { text: "Youtube", href: "https://example.com/2" },
-    { text: "Steam", href: "https://example.com/3" },
-    { text: "Github", href: "https://example.com/3" }
+    { text: "Discord", href: "https://discord.gg/daD5EzQZrf" },
+    { text: "Youtube", href: "https://www.youtube.com/@fade7824" },
+    { text: "Steam", href: "https://steamcommunity.com/id/FadeRemix/" },
+    { text: "Github", href: "https://github.com/FadeRemix" }
 ];
 var currentIndex = 0;
 var speed = 50; // typing speed in milliseconds
