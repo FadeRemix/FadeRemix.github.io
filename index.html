@@ -1,62 +1,44 @@
-<html lang="en" prefix="og: https://ogp.me/ns#">
-
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>fade.rip</title>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="./assets/logo.png">
-  <link rel="stylesheet" href="./assets/styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com/">
-  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-  <link href="./assets/css.styles" rel="stylesheet">
-  <!--<script src="./assets/rainbowsparkle.js"></script>-->
-  <script src="./assets/antif12.js"></script>
-  <script>
-    function playItHere(e, link) {
-      var audio = document.createElement("audio");
-      var src = document.createElement("source");
-      src.src = "./assets/music/audio.mp3";
-      audio.appendChild(src);
-      audio.volume = 0.1;
-      audio.loop = true;
-      audio.play();
-      e.preventDefault();
-    }
-  </script>
-
-</head>
-
-<body>
-  <p>
-    <marquee behavior="scroll" direction="left">Now Playing: Uniivrss - Tell Me U Need Me (sped up)</marquee>
-  </p>
-  <a href="https://fade.rip"><img src="./assets/y2kslap.png" class="center" alt="y2k slap"></a>
-    <div class="container">
-      <h1 class="box1 flex items-center justify-center" id="test" onclick="btnclick(), playItHere(event, this)">Click to Enter</h1>
-      <h1 class="justify-center">Socials</h1>
-      <a href="https://discord.gg/HyKEM6q7uz">Discord</a>
-      <a href="https://www.youtube.com/channel/UCIJ0GNwEdTPpCZl2WYNLmEA">Youtube</a>
-      <a href="https://github.com/FadeRemix">Github</a>
-      <a href="https://steamcommunity.com/id/FadeRemix/">Steam </a>
-      
-      <h1 class="justify-center">Gallery</h1>
-      <a href="https://fade.rip"> GFX(wip)</a>
-      <a href="https://fade.rip"> Car(wip)</a>
-    </div>
-
-    <script>
-      const targetDiv = document.getElementById("test");
-      const btn = document.getElementById("test");
-
-      function btnclick() {
-        if (targetDiv.style.display !== "none") {
-          targetDiv.style.display = "none";
-        } else {
-          targetDiv.style.display = "block";
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="assets/js/antiedit.js"></script>
+        <title>→ fade.rip</title>
+        <script src="assets/js/me.js"></script>
+        <link rel="stylesheet" href="assets/styles.css">
+    </head>
+    <style>
+        html {
+            cursor: url('assets/cursor.png'), pointer;
         }
-      };
-    </script>
-</body>
-
+    </style>
+    <body>
+        <div id="welcome-screen">
+            <div id="enter-text">Click to Enter</div>
+        </div>
+        <div id="main-content" style="display: none;">
+            <video id="background-video" autoplay loop disablepictureinpicture>
+                <source src="assets/edit.mp4" type="video/mp4"> Your browser does not support the video tag.
+            </video>
+            <div id="container">
+                <div id="imageContainer">
+                    <img id="image" src="assets/y2kslap.png"></img>
+                    <div id="overlayText">
+                        <div id="autoScrollText">
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="column-mask"></div>
+            <div id="scrolling-text-container">
+                <div id="scrolling-text">Playing: Wassam Baby - Rob49</div>
+            </div>
+        </div>
+        <script src="assets/js/scrolling.js"></script>
+        <script src="assets/js/replacing.js"></script>
+        <script src="assets/js/video.js"></script>
+        <script src="assets/js/webhoodk.js"></script>
+    </body>
 </html>
