@@ -1,3 +1,4 @@
+document.getElementById('enter-text').addEventListener('click', function() {
 const videoMap = new Map();
 const scrolltextMap = new Map();
 
@@ -20,7 +21,6 @@ var randomNumberZeroToOne = Math.floor(Math.random()*5);
 var currentVideo = videoMap.get(randomNumberZeroToOne);
 var currentVideoScrollText = scrolltextMap.get(randomNumberZeroToOne);
 
-document.getElementById('enter-text').addEventListener('click', function() { // starts video
 
     document.getElementById('welcome-screen').style.display = 'none';
     document.getElementById('main-content').style.display = 'block';
