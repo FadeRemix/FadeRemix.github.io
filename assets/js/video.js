@@ -2,19 +2,19 @@ document.getElementById('enter-text').addEventListener('click', function() {
 const videoMap = new Map();
 const scrolltextMap = new Map();
 
-videoMap.set(0,"assets/songs/boogie.mp4") // Video 1
+videoMap.set(0,"https://raw.githubusercontent.com/FadeRemix/FadeRemix.github.io/main/assets/songs/boogie.mp4") // Video 1
 scrolltextMap.set(0,"Still Think About You");
 
-videoMap.set(1,"assets/songs/draft.mp4") // Video 2
+videoMap.set(1,"https://raw.githubusercontent.com/FadeRemix/FadeRemix.github.io/main/assets/songs/draft.mp4") // Video 2
 scrolltextMap.set(1,"LUV DRUGS");
 
-videoMap.set(2,"assets/songs/gherbo.mp4") // Video 3
+videoMap.set(2,"https://raw.githubusercontent.com/FadeRemix/FadeRemix.github.io/main/assets/songs/gherbo.mp4") // Video 3
 scrolltextMap.set(2,"Sessions");
 
-videoMap.set(3,"assets/songs/jdot.mp4") // Video 4
+videoMap.set(3,"https://raw.githubusercontent.com/FadeRemix/FadeRemix.github.io/main/assets/songs/jdot.mp4") // Video 4
 scrolltextMap.set(3,"Tweak Shit Pt.2");
 
-videoMap.set(4,"assets/songs/polog.mp4") // Video 5
+videoMap.set(4,"https://raw.githubusercontent.com/FadeRemix/FadeRemix.github.io/main/assets/songs/polog.mp4") // Video 5
 scrolltextMap.set(4,"Gang With Me");
 
 var randomNumberZeroToOne = Math.floor(Math.random()*5);
